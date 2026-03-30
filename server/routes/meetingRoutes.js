@@ -4,9 +4,9 @@ import uploadMeeting from "../controllers/meetingController.js"
 import { getMeetings, getMeetingById } from "../controllers/meetingController.js";
 const router= Router();
 
-router.post('/upload' ,upload.single('audio'), uploadMeeting)
-router.get('/', getMeetings)
-router.get('/:id', getMeetingById)
+router.post('/upload' ,upload.single('audio'), uploadMeeting) // Upload + process audio 
+router.get('/', getMeetings) // List all completed meetings
+router.get('/:id', getMeetingById) //  Get one meeting in full
 
 export default router;
 
