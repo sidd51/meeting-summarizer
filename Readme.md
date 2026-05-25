@@ -2,7 +2,7 @@
 
 An AI-powered meeting summarization tool that converts audio recordings into structured summaries, action items, and decisions — instantly.
 
-Live: https://meetscribe-ai-ten.vercel.app
+🔗 https://meetscribe-ai-ten.vercel.app
 
 ---
 
